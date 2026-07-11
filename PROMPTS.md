@@ -1,0 +1,1 @@
+generate a relevant and unique output and input for the section ''something missing''. dont over do it but dont make it too plain. it has to match with the theme and the context.
