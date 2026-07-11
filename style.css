@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1320px;
-    margin: 15px auto;
+    margin: 20px auto;
     border: 10px black;
 }
 .nav-links{
@@ -35,13 +35,15 @@
     font-weight: bold;
 }
 
+
+/* hero section */
 .banner{
     background-image: url("./assets/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 620px;
     background-position: center;
-    margin-top: -30px;
+    margin: -30px 20px 0px 20px;
 }
 .banner-heading{
     color: white;
@@ -75,6 +77,8 @@
     padding-top: 210px;
 }
 
+
+/*  about section */
 .card-container{
     text-align: center;
     max-width: 1440px;
@@ -105,3 +109,181 @@
 .text-p{
     color: #575757;
 }
+
+
+/* secure your spot section */
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.container h2{
+    font-size: 48px;
+}
+#paragraph{
+    color: #575757;
+    margin-top: -30px;
+    margin-bottom: 45px;
+}
+
+.card-container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 26px;
+}
+.card-s1{
+    box-sizing: border-box;
+    text-align: left;
+    width: 360px;
+    height: 465px;
+    padding: 20px 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.card-s2{
+    box-sizing: border-box;
+    background-color: #F8F9FB;
+    text-align: left;
+    width: 360px;
+    height: 465px;
+    padding: 20px 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.card-s1 h3{
+    font-size: 44px;
+    font-weight: bold;
+    margin: -10px 1px;
+}
+.card-s2 h3{
+    font-size: 44px;
+    font-weight: bold;
+    margin: -10px 1px;
+}
+
+.title-s{
+    color: #888888;
+    font-size: 14px;
+    font: bold;
+    font-weight: 550;
+}
+.subtitle-s{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.pro-card{
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    background-color: #0D1B2A;
+    width: 360px;
+    height: 465px;
+    padding: 20px 32px;
+    border-radius: 12px;
+}
+
+.title-p{
+    color: #93C5FD;
+    font-size: 14px;
+    font: bold;
+    font-weight: 500;
+}
+
+.pro-card h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: -10px 1px;
+}
+.subtitle-p{
+    font-size: 14px;
+    font-weight: 250;
+    color: white;
+    opacity: 50%;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.card-container-2 ul{
+    padding: 18px;
+}
+.card-container-2 li{
+    font-weight: 306;
+    margin-bottom: 12px;
+}
+
+.normal-li li::marker{
+    color: #2563EB;
+}
+.pro-li li::marker{
+    color: #60A5FA;
+}
+
+.pro-li li{
+    font-weight: 144;
+}
+
+.card-s1 hr{
+    height: 1px;
+    background-color: #E5E7EB;
+    border: none;
+}
+.card-s2 hr{
+    height: 1px;
+    background-color: #E5E7EB;
+    border: none;
+}
+
+.pro-card hr{
+    height: 1px;
+    background-color: white;
+    opacity: 10%;
+    border: none;
+}
+
+
+/* button */
+.btn-1{
+    width: 304px;
+    height: 47px;
+    margin: -20px 32px 32px -5px;
+    background-color: white;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563EB;
+    cursor: pointer;
+}
+
+.btn-2{
+    width: 304px;
+    height: 47px;
+    margin: -20px 32px 32px -5px;
+    background-color: white;
+    border: 2px solid #0D1B2A;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1B2A;
+    cursor: pointer;
+}
+
+.btn-p{
+    width: 304px;
+    height: 47px;
+    margin: -20px 32px 32px -5px;
+    background-color: #2563EB;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
